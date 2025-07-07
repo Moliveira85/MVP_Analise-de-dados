@@ -17,25 +17,25 @@ O projeto busca identificar **padrões, outliers e correlações** entre os atri
 
 Este é um problema **não supervisionado**, com foco em análise descritiva, visualização e preparação de dados.
 
-## ⚙Etapas Realizadas
+## Etapas Realizadas
 
-- Leitura e seleção das variáveis de interesse
+- Leitura eseleção das variáveis de interesse
 - Avaliação estatística descritiva
 - Visualização da distribuição com boxplots
 - Verificação de quais lotes apresentaram os **valores mínimos e máximos**
 - Conclusões específicas por atributo
 
-## 📌 Resultados
+## Resultados
 
 - Os valores mínimos e máximos de `dissolution_av`, `batch_yield` e `api_content` **ocorreram em lotes distintos**, sugerindo que **as falhas são isoladas e não recorrentes**.
 - A variável `api_content` se manteve, em sua maioria, **dentro da faixa regulamentar de 90% a 110%**, indicando **robustez no processo de dosagem** do princípio ativo.
 - A normalização dos dados permitiu uma melhor detecção de outliers e compreensão das dispersões.
 
-## ✅ Conclusão
+## Conclusão
 
 O conjunto de dados se mostrou adequado para análises estatísticas e futuras aplicações preditivas. A ausência de correlação direta entre os atributos críticos e a distribuição dos desvios ao longo de diferentes lotes reforçam a **consistência do processo produtivo**.
 
-## 🚀 Como executar
+##  Como executar
 
 Este notebook pode ser executado diretamente no Google Colab com o link do dataset no formato `.raw` do GitHub:
 
